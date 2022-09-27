@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:gems/lapis"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "result": {
+    "name": "spells_and_shields_x_tconstruct:max_mana",
+    "level": 1
+  },
+  "max_level": 2
+}

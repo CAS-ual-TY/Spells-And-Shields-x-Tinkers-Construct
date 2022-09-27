@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+issueTrackerURL="https://github.com/CAS-ual-TY/Spells-And-Shields-x-Tinkers-Construct/issues"
+
+[[mods]]
+    modId="spells_and_shields_x_tconstruct"
+    version="${file.jarVersion}"
+    displayName="Spells & Shields: Magicians' Tinkering"
+    displayURL="https://github.com/CAS-ual-TY/Spells-And-Shields-x-Tinkers-Construct"
+    logoFile="logo.png"
+    credits="Mojang and the Minecraft Forge Team"
+    authors="CAS_ual_TY"
+    description='''New mana modifiers for tools, weapons and armor.'''
+
+[[dependencies.spells_and_shields_x_origins]]
+    modId="spells_and_shields"
+    mandatory=true
+    versionRange="[1.18.2-1.8.5,)"
+    side="BOTH"
+[[dependencies.spells_and_shields_x_origins]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[1.18.2-3.5.2.40,)"
+    side="BOTH"

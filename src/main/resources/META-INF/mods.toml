@@ -13,12 +13,12 @@ issueTrackerURL="https://github.com/CAS-ual-TY/Spells-And-Shields-x-Tinkers-Cons
     authors="CAS_ual_TY"
     description='''New mana modifiers for tools, weapons and armor.'''
 
-[[dependencies.spells_and_shields_x_origins]]
+[[dependencies.spells_and_shields_x_tconstruct]]
     modId="spells_and_shields"
     mandatory=true
-    versionRange="[1.18.2-1.8.5,)"
+    versionRange="[1.18.2-1.8.6,)"
     side="BOTH"
-[[dependencies.spells_and_shields_x_origins]]
+[[dependencies.spells_and_shields_x_tconstruct]]
     modId="tconstruct"
     mandatory=true
     versionRange="[1.18.2-3.5.2.40,)"

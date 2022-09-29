@@ -1,0 +1,8 @@
+{
+    "modifier.spells_and_shields_x_tconstruct.mana_regen": "魔法恢复",
+    "modifier.spells_and_shields_x_tconstruct.mana_regen.description": "魔法会逐渐恢复，胸甲和护腿恢复更快。",
+    "modifier.spells_and_shields_x_tconstruct.mana_regen.flavor": "补充！",
+    "modifier.spells_and_shields_x_tconstruct.max_mana": "魔法扩容",
+    "modifier.spells_and_shields_x_tconstruct.max_mana.description": "增加你的最大魔法。 胸甲和护腿增加更多",
+    "modifier.spells_and_shields_x_tconstruct.max_mana.flavor": "魔法！"
+}

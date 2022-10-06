@@ -1,7 +1,7 @@
 {
-  "modifier.spells_and_shields_x_tconstruct.mana_regen": "Mana Regeneration",
-  "modifier.spells_and_shields_x_tconstruct.mana_regen.description": "Increases your mana regeneration while worn. More potent on chestplates and leggings than helmets and boots.",
-  "modifier.spells_and_shields_x_tconstruct.mana_regen.flavor": "Replenishing!",
+  "modifier.spells_and_shields_x_tconstruct.mana_regeneration": "Mana Regeneration",
+  "modifier.spells_and_shields_x_tconstruct.mana_regeneration.description": "Increases your mana regeneration while worn. More potent on chestplates and leggings than helmets and boots.",
+  "modifier.spells_and_shields_x_tconstruct.mana_regeneration.flavor": "Replenishing!",
   "modifier.spells_and_shields_x_tconstruct.max_mana": "Maximum Mana",
   "modifier.spells_and_shields_x_tconstruct.max_mana.description": "Increases your maximum mana while worn. More potent on chestplates and leggings than helmets and boots.",
   "modifier.spells_and_shields_x_tconstruct.max_mana.flavor": "Mana!"

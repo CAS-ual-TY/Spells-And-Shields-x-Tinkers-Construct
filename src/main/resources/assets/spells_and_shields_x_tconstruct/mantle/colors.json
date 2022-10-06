@@ -1,6 +1,6 @@
 {
     "modifier.spells_and_shields_x_tconstruct": {
-        "mana_regen": "#03b6fc",
+        "mana_regeneration": "#03b6fc",
         "max_mana": "#0373fc"
     }
 }

@@ -16,7 +16,7 @@ issueTrackerURL="https://github.com/CAS-ual-TY/Spells-And-Shields-x-Tinkers-Cons
 [[dependencies.spells_and_shields_x_tconstruct]]
     modId="spells_and_shields"
     mandatory=true
-    versionRange="[1.18.2-1.8.6,)"
+    versionRange="[1.18.2-1.9,)"
     side="BOTH"
 [[dependencies.spells_and_shields_x_tconstruct]]
     modId="tconstruct"

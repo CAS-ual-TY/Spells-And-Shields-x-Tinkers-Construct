@@ -12,7 +12,7 @@ public class SpellsXTConstruct
     
     public static final ModifierDeferredRegister MODIFIERS = ModifierDeferredRegister.create(MOD_ID);
     
-    public static final StaticModifier<ManaRegenModifier> MANA_REGEN_MODIFIER = MODIFIERS.register("mana_regen", ManaRegenModifier::new);
+    public static final StaticModifier<ManaRegenModifier> MANA_REGEN_MODIFIER = MODIFIERS.register("mana_regeneration", ManaRegenModifier::new);
     public static final StaticModifier<MaxManaModifier> MAX_MANA_MODIFIER = MODIFIERS.register("max_mana", MaxManaModifier::new);
     
     public SpellsXTConstruct()

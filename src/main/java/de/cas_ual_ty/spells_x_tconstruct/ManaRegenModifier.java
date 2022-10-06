@@ -15,7 +15,7 @@ public class ManaRegenModifier extends Modifier
     @Override
     public void addAttributes(IToolStackView tool, int level, EquipmentSlot slot, BiConsumer<Attribute, AttributeModifier> consumer)
     {
-        double increase = SpellsRegistries.MANA_REGEN_ENCHANTMENT.get().getAttributeIncrease(level, slot);
-        consumer.accept(SpellsRegistries.MANA_REGEN_ATTRIBUTE.get(), new AttributeModifier(UUID.fromString("A2EE86EC-2C7F-4355-BE41-FD80ADD1FFB5"), "Mana regen modifier", increase, AttributeModifier.Operation.ADDITION));
+        double increase = SpellsRegistries.MANA_REGENERATION_ENCHANTMENT.get().getAttributeIncrease(level, slot);
+        consumer.accept(SpellsRegistries.MANA_REGENERATION_ATTRIBUTE.get(), new AttributeModifier(UUID.fromString("A2EE86EC-2C7F-4355-BE41-FD80ADD1FFB5"), "Mana regeneration modifier", increase, AttributeModifier.Operation.ADDITION));
     }
 }

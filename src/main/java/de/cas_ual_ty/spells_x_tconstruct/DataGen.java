@@ -5,7 +5,6 @@ import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.minecraftforge.common.data.LanguageProvider;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -94,7 +93,7 @@ public class DataGen
             
             ModifierRecipeBuilder.modifier(SpellsXTConstruct.MAX_MANA_MODIFIER)
                     .setTools(TinkerTags.Items.ARMOR)
-                    .addInput(Tags.Items.GEMS_LAPIS)
+                    .addInput(Ingredient.of(Items.TUBE_CORAL))
                     .addInput(Ingredient.of(Items.BOOK))
                     .setSlots(SlotType.ABILITY, 1)
                     .setMaxLevel(2)
